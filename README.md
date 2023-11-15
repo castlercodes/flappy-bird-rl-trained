@@ -10,7 +10,3 @@ Screen shot of the game for reference
 ![image](https://github.com/castlercodes/flappy-bird-rl-trained/assets/86559072/d7991f43-7dff-49e7-9e59-c8ff95f4538b)
 
 To run the reinforcement learning agent, clone the repository to your device and type py flappy.py in the terminal. To exit training, press Ctrl+C in the terminal.
-
-If you wish to start the training from scratch, delete the model.pth file in the model folder.
-
-For continued training, edit the self.epsilon parameter in the get_action function of the agent.py file. Change self.epsilon = 80 - self.n_games to self.epsilon = 0 - self.n_games to ensure that random moves are not generated, and actions are exclusively generated from the model.
